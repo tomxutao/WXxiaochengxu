@@ -5,19 +5,27 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#FFDEAD",
+    "navigationBarBackgroundColor": "#F8F8F8",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#F08080"
   },
   "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "iconPath": "pages/image/icon_voice.png",
+        "selectedIconPath": "pages/image/icon_voice_HL.png",
+        "text": "语音定时"
       },
       {
         "pagePath": "pages/logs/logs",
+        "iconPath": "pages/image/icon_cloud.png",
+        "selectedIconPath": "pages/image/icon_cloud_HL.png",
         "text": "日志"
       }
     ]
