@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/lists/lists",
+    "pages/detail/detail",
     "pages/aboutme/aboutme",
     "pages/index/index",
     "pages/logs/logs"
@@ -18,16 +20,16 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/lists/lists",
         "iconPath": "pages/image/icon_voice.png",
         "selectedIconPath": "pages/image/icon_voice_HL.png",
-        "text": "语音定时"
+        "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/aboutme/aboutme",
         "iconPath": "pages/image/icon_cloud.png",
         "selectedIconPath": "pages/image/icon_cloud_HL.png",
-        "text": "日志"
+        "text": "关于我们"
       }
     ]
   }
